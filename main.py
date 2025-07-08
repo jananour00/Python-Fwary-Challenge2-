@@ -92,15 +92,15 @@ def run_test_cases():
         inventory.remove_outdated_books(2010)
 
         # Buy paper book
-        paper_price = inventory.buy_book("ISBN123", 2, "aya.ahmed8760@gmail.com", "6 October")
+        paper_price = inventory.buy_book("ISBN123", 2, "jana.nour05@eng-st.cu.edu.eg", "Giza")
         print(f"Amount paid for paper book: {paper_price}")
 
         # Buy ebook
-        ebook_price = inventory.buy_book("ISBN456", 1, "aya.ahmed8760@gmail.com", "6 October")
+        ebook_price = inventory.buy_book("ISBN456", 1, "jana.nour05@eng-st.cu.edu.eg", " GiZA")
         print(f"Amount paid for eBook: {ebook_price}")
 
         # Buy showcase book (will raise an exception)
-        inventory.buy_book("ISBN789", 1, "aya.ahmed8760@gmail.com", "Alhram")
+        inventory.buy_book("ISBN789", 1, "jana.nour05@eng-st.cu.edu.eg", "Alhram")
 
     except Exception as e:
         print(e)
