@@ -43,12 +43,8 @@ Amount paid for paper book: 200
 Sending eBook to example@email.com
 Amount paid for eBook: 50
 Quantum book store: This book is not for sale.
+![image](https://github.com/user-attachments/assets/1860fcc2-d9f5-469b-b1f1-1ab4943ad1b1)
 
-yaml
-Copy
-Edit
-
----
 
 ## 📤 GitHub Upload Instructions
 
